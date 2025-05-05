@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instagram Preview | Legendary Kicks</title>
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="kobe1.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Rajdhani', sans-serif;
+      background: #fafafa;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navbar {
+      width: 100%;
+      background: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .back-btn {
+      text-decoration: none;
+      font-size: 24px;
+      margin-right: 15px;
+      color: #333;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    header {
+      padding: 20px 0 10px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #262626;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      padding: 40px;
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      background: #fff;
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-left">
+        <a href="home.html" class="back-btn" aria-label="Go Back">&#8592;</a>
+        <a href="home.html" class="logo">
+          <img src="pics/sd.png" alt="Logo" />
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Kobe Bryant Shoes – Instagram Preview</h1>
+  </header>
+
+  <!-- IMAGE GALLERY -->
+  <div class="gallery">
+    <img src="kobe3/kobe3main.jpg" alt="Post 1">
+    <img src="kobe4/kobe4main.jpg" alt="Post 2">
+    <img src="kobe5/kobe5main.jpg" alt="Post 3">
+    <img src="kobe1/kobew1.webp" alt="Post 4">
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    &copy; 2025 Kobe Bryant Shoes. All rights reserved.
+  </footer>
+
+</body>
+</html>
