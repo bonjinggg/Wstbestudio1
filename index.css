@@ -70,37 +70,37 @@ html {
 
 
 
-/* To push content below navbar */
+
 body {
   padding-top: 80px;
 }
 
 
-/* Featured image section */
+
 .featured-image {
   width: 150%;
   overflow: hidden;
   position: relative;
-  margin: 0 auto; /* This centers it */
-  max-width: 1000px; /* LIMIT maximum width */
-  border-radius: 10px; /* optional: make corners slightly rounded */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional: add a soft shadow */
+  margin: 0 auto; 
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .featured-image img {
   width: 100%;
-  height: 600px; /* smaller height */
+  height: 600px; 
   object-fit: cover;
   display: none;
   transition: opacity 1s ease-in-out;
-  border-radius: 10px; /* match the container */
+  border-radius: 10px;
 }
 
 .featured-image img.active {
   display: block;
 }
 
-/* Collection Section */
+
 .collection {
   padding: 50px 20px;
   text-align: center;
@@ -114,7 +114,7 @@ body {
 }
 
 
-/* Flex container for cards */
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -122,10 +122,10 @@ body {
   gap: 30px;
 }
 
-/* Card design */
+
 .card {
   background: #fff;
-  border: 1px solid #000; /* Black border */
+  border: 1px solid #000;
   border-radius: 10px;
   overflow: hidden;
   width: 300px;
@@ -162,7 +162,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* SEE MORE button */
+
 .see-more-btn {
   display: inline-block;
   padding: 12px 25px;
@@ -182,13 +182,13 @@ body {
   color: #ffffff;
 }
 
-/* Footer Section */
+
 .site-footer {
-  background-color: #f7f7f7; /* light grayish white */
+  background-color: #f7f7f7;
   color: #000;
   padding: 60px 20px 30px;
   margin-top: 50px;
-  text-align: center; /* Center all text by default */
+  text-align: center; 
 }
 
 .footer-content {
@@ -218,7 +218,7 @@ body {
 
 .footer-section ul {
   list-style: none;
-  padding: 0; /* Add this to remove default padding */
+  padding: 0; 
 }
 
 .footer-section ul li {
